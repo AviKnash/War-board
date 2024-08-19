@@ -8,7 +8,7 @@ import {
   } from "@/components/ui/card";
 //   import { EnterNameDialog } from "./components/EnterNameDialog";
   import { Button } from "@/components/ui/button";
-  import { useUserContext } from "../context/AuthContext";
+  import { useUserContext } from "../../context/AuthContext";
   import { useRouter } from "next/navigation";
   import { v4 as uuidv4 } from "uuid";
   

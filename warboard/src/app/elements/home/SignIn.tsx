@@ -5,7 +5,7 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/card";
-  import { useUser } from "../hooks/useUser";
+  import { useUser } from "../../hooks/useUser";
   import GoogleButton from "react-google-button";
   
   const SignIn = () => {

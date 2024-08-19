@@ -11,7 +11,7 @@ import {
   import { FormEvent } from "react";
   import { useToast } from "@/components/ui/use-toast";
   import { useRouter } from "next/navigation";
-import { useUserContext } from "../context/AuthContext";
+import { useUserContext } from "../../context/AuthContext";
   
   const JoinGame = () => {
     const { toast } = useToast();
@@ -60,7 +60,7 @@ import { useUserContext } from "../context/AuthContext";
                 )}
               </div>
             </div>
-            <CardFooter className=" items-center justify-center py-1.5">
+            <CardFooter className="justify-center h-full py-1.5">
               <Button type="submit">Join</Button>
             </CardFooter>
           </form>
